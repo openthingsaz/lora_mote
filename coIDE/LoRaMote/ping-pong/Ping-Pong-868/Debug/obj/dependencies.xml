@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IZ:\loramac_coide\src\mac /IZ:\loramac_coide\src\peripherals /IZ:\loramac_coide\src\radio /IZ:\loramac_coide\src\boards\mcu\stm32 /IZ:\loramac_coide\src\system\crypto /IZ:\loramac_coide\src\boards\LoRaMote /IZ:\loramac_coide\src\system /IZ:\loramac_coide\src /IZ:\loramac_coide\src\boards\sensornode /IZ:\loramac_coide\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc /IZ:\loramac_coide\src\boards\LoRaMote\cmsis /IZ:\loramac_coide\src\boards\mcu\stm32\cmsis">
+      <source file="..\..\..\..\..\..\src\apps\ping-pong\LoRaMote\main.c" lastModified="16ce71c24d5">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\radio\radio.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\rtc-board.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h" lastModified="16ce71c2105">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\rtc-board.c" lastModified="16ce71c24d5">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\rtc-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_uart.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\radio\sx1276\sx1276Regs-Fsk.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_i2s.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_cortex.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_iwdg.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm3.h" lastModified="16ce71c24f1">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h" lastModified="16ce71c20fd">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\gps-board.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_spi.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_spi_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dma.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\gpio-board.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ex.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_opamp_ex.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\gpio-board.c" lastModified="16ce71c20ed">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\gpio-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\gpio.h" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\pinName-board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\pinName-ioe.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_sdmmc.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\spi-board.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\system\gpio.c" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\gpio-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_irda.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\radio\sx1276\sx1276Regs-LoRa.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\spi-board.c" lastModified="16ce71c20ed">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\spi-board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_spi.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\gps.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2c.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_opamp.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_opamp_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\gps.c" lastModified="16ce71c3491">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\system\gps.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\fifo.h" lastModified="16ce71c28d9">
+      </source>
+      <source file="..\..\..\..\..\..\src\peripherals\mpl3115.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_lcd.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\peripherals\mma8451.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\system\spi.h" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\spi-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\sx1276-board.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\system\uart.h" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\system\fifo.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\peripherals\mag3110.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_wwdg.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h" lastModified="16ce71c2cc1">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc_V6.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_gcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\fifo.c" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\system\fifo.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim_ex.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\sx1276-board.c" lastModified="16ce71c20ed">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\radio\radio.h"/>
+         <include file="..\..\..\..\..\..\src\radio\sx1276\sx1276.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\sx1276-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\uart.c" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\uart-board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\uart-usb-board.h"/>
+         <include file="..\..\..\..\..\..\src\system\uart.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_gcc.h" lastModified="16ce71c2105">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_sram.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_fsmc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_cryp.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_cryp_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_crc.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ramfunc.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_adc.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_adc_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio_ex.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc_V6.h" lastModified="16ce71c2105">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_comp_ex.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\radio\radio.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\system_stm32l1xx.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\mxconstants.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\system_stm32l1xx.c" lastModified="16ce71c20ed">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pcd.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pcd_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\adc.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\stm32l1xx.h" lastModified="16ce71c72f5">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\stm32l151xb.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\arm-gcc\startup_stm32l151xb.s" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\system\adc.c" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\adc-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_i2c.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_comp.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_comp_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rtc.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rtc_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\stm32l1xx_hal_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\stm32l1xx_hal_conf.h" lastModified="16ce71c20ed">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\mxconstants.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dma.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_cortex.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_adc.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_comp.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_crc.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_cryp.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dac.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_sram.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_nor.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_i2c.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_i2s.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_iwdg.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_lcd.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_opamp.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rtc.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_sd.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_spi.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_uart.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_usart.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_irda.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_smartcard.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_wwdg.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pcd.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dac_ex.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\i2c-board.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\sysIrqHandlers.c" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr_ex.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\pinName-board.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ex.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ramfunc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\i2c-board.c" lastModified="16ce71c20ed">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\i2c-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_fsmc.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_adc_ex.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_usart.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\uart-board.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\system\i2c.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_cryp_ex.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dac.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dac_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\uart-board.c" lastModified="16ce71c20ed">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\uart-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\i2c.c" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\i2c-board.h"/>
+      </source>
+      <source file="..\..\..\components\coocox-master\Retarget_printf\source\printf.c" lastModified="16ce71c28bd">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h" lastModified="16ce71c24e5">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\stm32l1xx.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\timer.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_nor.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_fsmc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_sd.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_ll_sdmmc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\timer.c" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\rtc-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_smartcard.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rtc_ex.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\pinName-ioe.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\adc-board.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc_ex.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc_ex.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\adc-board.c" lastModified="16ce71c20ed">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\adc-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\board.h" lastModified="16ce71c385d">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\stm32l1xx.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\utilities.h"/>
+         <include file="..\..\..\..\..\..\src\system\timer.h"/>
+         <include file="..\..\..\..\..\..\src\system\delay.h"/>
+         <include file="..\..\..\..\..\..\src\system\gpio.h"/>
+         <include file="..\..\..\..\..\..\src\system\adc.h"/>
+         <include file="..\..\..\..\..\..\src\system\spi.h"/>
+         <include file="..\..\..\..\..\..\src\system\i2c.h"/>
+         <include file="..\..\..\..\..\..\src\system\uart.h"/>
+         <include file="..\..\..\..\..\..\src\radio\radio.h"/>
+         <include file="..\..\..\..\..\..\src\radio\sx1276\sx1276.h"/>
+         <include file="..\..\..\..\..\..\src\peripherals\mag3110.h"/>
+         <include file="..\..\..\..\..\..\src\peripherals\mma8451.h"/>
+         <include file="..\..\..\..\..\..\src\peripherals\mpl3115.h"/>
+         <include file="..\..\..\..\..\..\src\peripherals\sx9500.h"/>
+         <include file="..\..\..\..\..\..\src\system\gps.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\gps-board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\rtc-board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\sx1276-board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\uart-board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\uart-usb-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\delay.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\uart-usb-board.h" lastModified="16ce71c20ed">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\board.c" lastModified="16d6715189a">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\radio\sx1276\sx1276.h" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\radio\sx1276\sx1276Regs-Fsk.h"/>
+         <include file="..\..\..\..\..\..\src\radio\sx1276\sx1276Regs-LoRa.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\system\delay.c" lastModified="16ce71c2109">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\utilities.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\radio\sx1276\sx1276.c" lastModified="16ce71c28d9">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\radio\radio.h"/>
+         <include file="..\..\..\..\..\..\src\radio\sx1276\sx1276.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\sx1276-board.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h" lastModified="16ce71c2cc1">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc_V6.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_gcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\utilities.c" lastModified="16ce71c28d9">
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\board.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\utilities.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_spi_ex.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio.h" lastModified="16ce71c20fd">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio_ex.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc_ex.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pcd_ex.h" lastModified="16ce71c2101">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi_ex.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c" lastModified="16ce71c2105">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\src\peripherals\sx9500.h" lastModified="16ce71c2109">
+      </source>
+      <source file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\stm32l151xb.h" lastModified="16ce71c24d5">
+         <include file="..\..\..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm3.h"/>
+         <include file="..\..\..\..\..\..\src\boards\LoRaMote\cmsis\system_stm32l1xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

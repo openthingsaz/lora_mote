@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="8.3.1 -mcpu=cortex-m3 -mthumb -g -flto -Map=LoRaMacClassA.map -Os --gc-sections --entry=main -lc -lm -lrdimon -LZ:/loramac_coide/src/boards/loramote/cmsis/arm-gcc -TZ:/loramac_coide/src/boards/loramote/cmsis/arm-gcc/stm32l151xb_flash.ld -g">
+      <target file="LoRaMacClassA.elf" lastModified="16d6636d201">
+         <source file="..\obj\stm32l1xx_hal_adc_ex.o" lastModified="16d6314068f"/>
+         <source file="..\obj\adc-board.o" lastModified="16d63140b12"/>
+         <source file="..\obj\sx1276.o" lastModified="16d63141009"/>
+         <source file="..\obj\delay.o" lastModified="16d63141423"/>
+         <source file="..\obj\sysIrqHandlers.o" lastModified="16d63141850"/>
+         <source file="..\obj\i2c.o" lastModified="16d63141ceb"/>
+         <source file="..\obj\stm32l1xx_hal_spi.o" lastModified="16d631420a1"/>
+         <source file="..\obj\stm32l1xx_hal_i2c.o" lastModified="16d63142480"/>
+         <source file="..\obj\timer.o" lastModified="16d631428c4"/>
+         <source file="..\obj\stm32l1xx_hal_spi_ex.o" lastModified="16d63142bb7"/>
+         <source file="..\obj\utilities.o" lastModified="16d63142fcd"/>
+         <source file="..\obj\stm32l1xx_hal_rtc.o" lastModified="16d631432f6"/>
+         <source file="..\obj\uart.o" lastModified="16d63143755"/>
+         <source file="..\obj\stm32l1xx_hal_gpio.o" lastModified="16d63143a57"/>
+         <source file="..\obj\stm32l1xx_hal_flash.o" lastModified="16d63143d7f"/>
+         <source file="..\obj\system_stm32l1xx.o" lastModified="16d6314407d"/>
+         <source file="..\obj\main.o" lastModified="16d63144547"/>
+         <source file="..\obj\i2c-board.o" lastModified="16d6314497f"/>
+         <source file="..\obj\board.o" lastModified="16d63144e0f"/>
+         <source file="..\obj\stm32l1xx_hal_rtc_ex.o" lastModified="16d63145191"/>
+         <source file="..\obj\stm32l1xx_hal_rcc_ex.o" lastModified="16d63145482"/>
+         <source file="..\obj\gpio-board.o" lastModified="16d631458d9"/>
+         <source file="..\obj\printf.o" lastModified="16d63145d5a"/>
+         <source file="..\obj\stm32l1xx_hal.o" lastModified="16d63146096"/>
+         <source file="..\obj\gpio.o" lastModified="16d631464dc"/>
+         <source file="..\obj\stm32l1xx_hal_pwr.o" lastModified="16d6314680f"/>
+         <source file="..\obj\rtc-board.o" lastModified="16d63146c97"/>
+         <source file="..\obj\cmac.o" lastModified="16d63146d24"/>
+         <source file="..\obj\aes.o" lastModified="16d63146e57"/>
+         <source file="..\obj\LoRaMac.o" lastModified="16d631473b9"/>
+         <source file="..\obj\stm32l1xx_hal_cortex.o" lastModified="16d631476d1"/>
+         <source file="..\obj\sx1276-board.o" lastModified="16d63147b75"/>
+         <source file="..\obj\fifo.o" lastModified="16d63147bfd"/>
+         <source file="..\obj\uart-board.o" lastModified="16d63148035"/>
+         <source file="..\obj\stm32l1xx_hal_rcc.o" lastModified="16d6314835e"/>
+         <source file="..\obj\adc.o" lastModified="16d631487ac"/>
+         <source file="..\obj\stm32l1xx_hal_uart.o" lastModified="16d63148b11"/>
+         <source file="..\obj\spi-board.o" lastModified="16d63148f63"/>
+         <source file="..\obj\stm32l1xx_hal_pwr_ex.o" lastModified="16d6314926b"/>
+         <source file="..\obj\stm32l1xx_hal_adc.o" lastModified="16d631495c9"/>
+         <source file="..\obj\LoRaMacCrypto.o" lastModified="16d6314970b"/>
+         <source file="..\obj\startup_stm32l151xb.o" lastModified="16d63149723"/>
+         <source file="..\obj\stm32l1xx_hal_dma.o" lastModified="16d63149a41"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="8.3.1 -mcpu=cortex-m3 -mthumb -g -flto -Map=Ping-Pong.map -O1 --gc-sections --entry=main -lm -LZ:/loramac_coide/src/boards/loramote/cmsis/arm-gcc -TZ:/loramac_coide/src/boards/loramote/cmsis/arm-gcc/stm32l151xb_flash.ld -g">
+      <target file="Ping-Pong.elf" lastModified="16d67275e58">
+         <source file="..\obj\stm32l1xx_hal_adc_ex.o" lastModified="16cf68f5c1f"/>
+         <source file="..\obj\adc-board.o" lastModified="16cf68f6037"/>
+         <source file="..\obj\sx1276.o" lastModified="16cf68f64a2"/>
+         <source file="..\obj\delay.o" lastModified="16cf68f68b4"/>
+         <source file="..\obj\sysIrqHandlers.o" lastModified="16cf68f6cbc"/>
+         <source file="..\obj\i2c.o" lastModified="16cf68f70df"/>
+         <source file="..\obj\stm32l1xx_hal_spi.o" lastModified="16cf68f7432"/>
+         <source file="..\obj\stm32l1xx_hal_i2c.o" lastModified="16cf68f780c"/>
+         <source file="..\obj\timer.o" lastModified="16cf68f7c27"/>
+         <source file="..\obj\stm32l1xx_hal_spi_ex.o" lastModified="16cf68f7ef3"/>
+         <source file="..\obj\utilities.o" lastModified="16cf68f8434"/>
+         <source file="..\obj\stm32l1xx_hal_rtc.o" lastModified="16cf68f8747"/>
+         <source file="..\obj\uart.o" lastModified="16cf68f8b62"/>
+         <source file="..\obj\stm32l1xx_hal_gpio.o" lastModified="16cf68f8e1c"/>
+         <source file="..\obj\system_stm32l1xx.o" lastModified="16cf68f90d1"/>
+         <source file="..\obj\main.o" lastModified="16cf68f94e0"/>
+         <source file="..\obj\i2c-board.o" lastModified="16cf68f9986"/>
+         <source file="..\obj\board.o" lastModified="16d671539ac"/>
+         <source file="..\obj\stm32l1xx_hal_rtc_ex.o" lastModified="16cf68fa279"/>
+         <source file="..\obj\stm32l1xx_hal_rcc_ex.o" lastModified="16cf68fa52b"/>
+         <source file="..\obj\gpio-board.o" lastModified="16cf68fa94a"/>
+         <source file="..\obj\printf.o" lastModified="16cf68faddd"/>
+         <source file="..\obj\stm32l1xx_hal.o" lastModified="16cf68fb0d5"/>
+         <source file="..\obj\gpio.o" lastModified="16cf68fb4e7"/>
+         <source file="..\obj\stm32l1xx_hal_pwr.o" lastModified="16cf68fb7d5"/>
+         <source file="..\obj\rtc-board.o" lastModified="16cf68fbc33"/>
+         <source file="..\obj\stm32l1xx_hal_cortex.o" lastModified="16cf68fbf3c"/>
+         <source file="..\obj\sx1276-board.o" lastModified="16cf68fc3a4"/>
+         <source file="..\obj\fifo.o" lastModified="16cf68fc430"/>
+         <source file="..\obj\uart-board.o" lastModified="16cf68fc85c"/>
+         <source file="..\obj\stm32l1xx_hal_rcc.o" lastModified="16cf68fcb66"/>
+         <source file="..\obj\adc.o" lastModified="16cf68fcf5e"/>
+         <source file="..\obj\gps.o" lastModified="16cf68fd3a7"/>
+         <source file="..\obj\stm32l1xx_hal_uart.o" lastModified="16cf68fd6d5"/>
+         <source file="..\obj\spi-board.o" lastModified="16cf68fdb45"/>
+         <source file="..\obj\stm32l1xx_hal_pwr_ex.o" lastModified="16cf68fde0a"/>
+         <source file="..\obj\stm32l1xx_hal_adc.o" lastModified="16cf68fe104"/>
+         <source file="..\obj\startup_stm32l151xb.o" lastModified="16cf68fe11e"/>
+         <source file="..\obj\stm32l1xx_hal_dma.o" lastModified="16cf68fe40b"/>
+      </target>
+   </processor>
+</history>
